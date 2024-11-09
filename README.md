@@ -39,17 +39,47 @@ Data integrity is crucial to accurate analysis. The complete data cleaning proce
 
 ## Data Analysis and Visualizations
 
-### Top/Bottom 10 Products by Number of Purchases
+### Top/Bottom 10 Products by Sales
 
+#### Top
+![image alt](https://github.com/Carlos081023/Carlos_Portfolio2/blob/838fd0f8f66b324a3537f91e183d9baf276e7ce8/Screenshot%202024-11-08%20194002.png)
+
+#### Bottom 
+![image alt](https://github.com/Carlos081023/Carlos_Portfolio2/blob/838fd0f8f66b324a3537f91e183d9baf276e7ce8/Screenshot%202024-11-08%20194053.png)
+
+Based on 
+
+Analysis here
 ### Top/Bottom 3 Products from each Category and Year by Sales
 
-### Top/Bottom 10 Products by Sales
+#### Top
+![image alt](https://github.com/Carlos081023/Carlos_Portfolio2/blob/b71329d51b2c73035f893eb5e71075bdd7cdeadf/Screenshot%202024-11-08%20182153.png)
+
+#### Bottom 
+![image alt](https://github.com/Carlos081023/Carlos_Portfolio2/blob/d41683e5c88a783c650d75d24637dc4058cb5584/Screenshot%202024-11-08%20195319.png)
+
+Analysis Here
+
+### Top/Bottom 10 Products by Number of Purchases
+
+#### Top
+![image alt](https://github.com/Carlos081023/Carlos_Portfolio2/blob/b71329d51b2c73035f893eb5e71075bdd7cdeadf/Screenshot%202024-11-08%20195402.png)
+
+#### Bottom 
+![image alt](https://github.com/Carlos081023/Carlos_Portfolio2/blob/b71329d51b2c73035f893eb5e71075bdd7cdeadf/Screenshot%202024-11-08%20195438.png)
 
 ### ABC Analysis
 
+![image alt](https://github.com/Carlos081023/Carlos_Portfolio2/blob/9f70e8f2f217c0ec2f061c7e4718446f02fec137/Screenshot%202024-11-08%20180849.png)
+
+
 ### Demand Forecast
 
+#### Seasonal Index
+![image alt](https://github.com/Carlos081023/Carlos_Portfolio2/blob/530605a4fb8a1e85a4a5e02a6807fa93f280b2d8/Screenshot%202024-11-08%20200346.png)
 
+#### Yearly Demand Regression Line
+![image alt](https://github.com/Carlos081023/Carlos_Portfolio2/blob/530605a4fb8a1e85a4a5e02a6807fa93f280b2d8/Screenshot%202024-11-08%20200301.png)
 ## Actionable Recommendations:
 
   
