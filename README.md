@@ -35,28 +35,32 @@ The dataset required processing and cleaning to ensure quality, focusing on:
   * Removing duplicates.
   * Handling missing or blank values.
 
-Data integrity is crucial to accurate analysis. The complete data cleaning process is documented in the data cleaning file attached. Also see my SQL script for additonal cleaning done.
+Data integrity is crucial to accurate analysis. The complete data cleaning process is documented in the data cleaning file attached. Also see my [SQL script](https://github.com/Carlos081023/Carlos_Portfolio2/blob/main/Portfolio%20Project%202%20-%20Inventory%20Analysis%20Code.sql) for additonal cleaning done.
 
 ## Data Analysis and Visualizations
 
-### Top/Bottom 10 Products by Sales
+### Exploratory Data Analysis
 
-#### Top
+Please see my full [SQL script](https://github.com/Carlos081023/Carlos_Portfolio2/blob/main/Portfolio%20Project%202%20-%20Inventory%20Analysis%20Code.sql) is here to view all queries.
+
+#### Top/Bottom 10 Products by Sales
+
+##### Top
 ![image alt](https://github.com/Carlos081023/Carlos_Portfolio2/blob/838fd0f8f66b324a3537f91e183d9baf276e7ce8/Screenshot%202024-11-08%20194002.png)
 
-#### Bottom 
+##### Bottom 
 ![image alt](https://github.com/Carlos081023/Carlos_Portfolio2/blob/838fd0f8f66b324a3537f91e183d9baf276e7ce8/Screenshot%202024-11-08%20194053.png)
 
 Identifying the most and least popular products provides valuable insight into consumer preferences and key revenue drivers, enabling the company to optimize inventory management to meet customer demand effectively. The top-selling products are Copiers, Binders, and Machines—have collectively generated $261,450 in sales.
 
 Conversely, the bottom ten products are primarily office supplies. Notably, the Sauder Forest Hills Bookcase has no reported sales, indicating a potential absence of sales data. This NULL value warrants careful examination to ensure accurate data interpretation and informed inventory decisions.
 
-### Top/Bottom 3 Products from each Category and Year by Sales
+#### Top/Bottom 3 Products from each Category and Year by Sales
 
-#### Top
+##### Top
 ![image alt](https://github.com/Carlos081023/Carlos_Portfolio2/blob/b71329d51b2c73035f893eb5e71075bdd7cdeadf/Screenshot%202024-11-08%20182153.png)
 
-#### Bottom 
+##### Bottom 
 ![image alt](https://github.com/Carlos081023/Carlos_Portfolio2/blob/d41683e5c88a783c650d75d24637dc4058cb5584/Screenshot%202024-11-08%20195319.png)
 
 Top/Bottom 3 products by each year and category by total sales provide a much more detailed view into changing consumer tastes and product performance that can be used for optimizing inventory. 
@@ -73,12 +77,12 @@ For Office Supplies, consumer demand concentrates heavily in Binders. Since 2020
 
 Binders items have also consistently been the least popular choice for consumers. Product demand for these items are poor and must evaluate a course action into options to reduce inventory in these products to avoid unneccesary holding costs.
 
-### Top/Bottom 10 Products by Number of Purchases
+#### Top/Bottom 10 Products by Number of Purchases
 
-#### Top
+##### Top
 ![image alt](https://github.com/Carlos081023/Carlos_Portfolio2/blob/b71329d51b2c73035f893eb5e71075bdd7cdeadf/Screenshot%202024-11-08%20195402.png)
 
-#### Bottom 
+##### Bottom 
 ![image alt](https://github.com/Carlos081023/Carlos_Portfolio2/blob/b71329d51b2c73035f893eb5e71075bdd7cdeadf/Screenshot%202024-11-08%20195438.png)
 
 Looking into Top/Bottom products by Number of Purchases can help us to understand what items are a popular choice among consumers and evaluating demand to optimize inventory. While sales for the top and bottom products may vary, identifying these products can help to improve inventory processes and reduce holding costs by identifying items that are not moving as much.
