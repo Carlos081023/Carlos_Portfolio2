@@ -111,6 +111,8 @@ To further optimize inventory, certain C items may be discontinued based on spec
 
 * Criteria: Products with less than $350 in total sales and negative profits are candidates for removal.
 
+![image alt](https://github.com/Carlos081023/Carlos_Portfolio2/blob/e75e3746d9d19045445cef7f1db015fcd9389aea/Screenshot%202024-11-09%20204538.png)
+
 The impact of discontinuing these items will result:
 
 * Increase profit by 1.2%
@@ -121,7 +123,7 @@ Eliminating these items improves profitability and streamlines inventory managem
 
 ### Demand Forecast
 
-Insert overall demand trend here
+![image alt](https://github.com/Carlos081023/Carlos_Portfolio2/blob/e75e3746d9d19045445cef7f1db015fcd9389aea/Screenshot%202024-11-09%20211628.png)
 
 To forecast demand accurately over the next 12 months, we first need an annual demand estimate. I used simple linear regression on yearly demand data to predict next year’s demand. The regression line was chosen based on an R-squared value of 0.91, meaning 91% of the variation in demand can be explained by the yearly trend, which provides a solid foundation for prediction.
 
@@ -154,9 +156,12 @@ With the baseline demand of 13604 and the Seasonal Index for each month, I creat
 
 * Increasing inventory in peak months, when demand is expected to be higher.
 * Reducing inventory in off-peak months to avoid overstocking.
-* 
+  
 This combined method of trend-based prediction and seasonality adjustment helps balance inventory levels, ensuring better preparedness for demand fluctuations throughout the year.
 
 ## Actionable Recommendations:
 
+* Discontinuing some C products: By discontinuing C items with poor sales and produce negative profits, we can effectively reduce costs by .9% and improve profits by 1.2%.
+* Monitor and balance inventory stock for A and B items: By maintaining a close watch on top drivers for sales as well as items that have a moderate demand, it will ensure inventory for A items is readily avaiable and well stocked for customers and B items inventory maintained to avoid overstocking to keep associated costs to a minimium.
+  
   
