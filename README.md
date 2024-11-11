@@ -126,34 +126,32 @@ The impact of discontinuing these items will result:
 Eliminating these items improves profitability and streamlines inventory management, reducing the need for future ordering and associated holding costs. This approach optimizes resources, focusing on products that add greater value to the business.
 
 ### Demand Forecast
-
 ![image alt](https://github.com/Carlos081023/Carlos_Portfolio2/blob/e75e3746d9d19045445cef7f1db015fcd9389aea/Screenshot%202024-11-09%20211628.png)
 
-To forecast demand accurately over the next 12 months, we first need an annual demand estimate. I used simple linear regression on yearly demand data to predict next year’s demand. The regression line was chosen based on an R-squared value of 0.91, meaning 91% of the variation in demand can be explained by the yearly trend, which provides a solid foundation for prediction.
-
-   Demand = 1654.3x+5332.5
-   
-Where:
-* y is the predicted demand for year x.
-* x is the year 
+Demand over time trendline has very evident seasonality to it. Demand peaks in Fall months, more specifically September and Novemeber, consistently over the four year period of 2020-2023. Understanding this will be essential to creating an accurate and reliable demand forecast.
 
 
-Using this yearly demand forecast as a baseline allows us to account for general demand growth or decline while incorporating seasonality for more precise monthly projections.
 
 #### Yearly Demand Regression Line
 ![image alt](https://github.com/Carlos081023/Carlos_Portfolio2/blob/530605a4fb8a1e85a4a5e02a6807fa93f280b2d8/Screenshot%202024-11-08%20200301.png)
 
-Before I begin the Demand Forecast using a Seasonal Index, I need to predict the next year demand figure to use demand forecast. I made a yearly demand chart and used a simple linear regression line to then predict next years demand. Why? Based on the R-Squared value of .91, 91% of the variability in demand can be explained by the year. Now I have year 5 demand, i can use this for my seasonal index.
+To forecast demand accurately over the next 12 months, we first need an annual demand estimate. I used simple linear regression on yearly demand data to predict next year’s demand. The regression line was chosen based on an R-squared value of 0.91, meaning 91% of the variation in demand can be explained by the yearly trend, which provides a solid foundation for prediction.
 
-#### Seasonal Index
+Linear Regression Equation:   Demand = 1654.3x+5332.5
+   
+Where:
+* y is the predicted demand for year x.
+* x is the year
 
-##### What is a Seasonal Index? 
+Using this yearly demand forecast as a baseline allows us to account for general demand growth or decline while incorporating seasonality for more precise monthly projections.
+
+#### What is a Seasonal Index? 
 A Seasonal Index adjusts for monthly (or other period) fluctuations. I calculated a seasonal index for each month based on historical data, comparing each month’s demand to the average monthly demand over the entire period.
 
 This index can tell us:
 * Index > 1 indicates higher-than-average demand, signaling peak months.
 * Index < 1 indicates lower-than-average demand, signaling off-peak months.
-* 
+  
 ![image alt](https://github.com/Carlos081023/Carlos_Portfolio2/blob/530605a4fb8a1e85a4a5e02a6807fa93f280b2d8/Screenshot%202024-11-08%20200346.png)
 
 With the baseline demand of 13604 and the Seasonal Index for each month, I created a seasonal demand forecast for the next 12 months. This approach allows inventory and operations to anticipate demand more accurately by:
