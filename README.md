@@ -35,7 +35,7 @@ The dataset required processing and cleaning to ensure quality, focusing on:
   * Removing duplicates.
   * Handling missing or blank values.
 
-Data integrity is crucial to accurate analysis. The complete data cleaning process is documented in the data cleaning file attached. Also see my [SQL script](https://github.com/Carlos081023/Carlos_Portfolio2/blob/main/Portfolio%20Project%202%20-%20Inventory%20Analysis%20Code.sql) for additonal cleaning done.
+Data integrity is crucial to accurate analysis. The complete data cleaning process is documented in the data cleaning file attached. Also see my [SQL script](https://github.com/Carlos081023/Carlos_Portfolio2/blob/main/Portfolio%20Project%202%20-%20Inventory%20Analysis%20Code.sql) for additional cleaning done.
 
 ## Data Analysis and Visualizations
 
@@ -51,7 +51,7 @@ Please see my full [SQL script](https://github.com/Carlos081023/Carlos_Portfolio
 ##### Bottom 
 ![image alt](https://github.com/Carlos081023/Carlos_Portfolio2/blob/838fd0f8f66b324a3537f91e183d9baf276e7ce8/Screenshot%202024-11-08%20194053.png)
 
-Identifying the most and least popular products provides valuable insight into consumer preferences and key revenue drivers, enabling the company to optimize inventory management to meet customer demand effectively. The top-selling products are Copiers, Binders, and Machines—have collectively generated $261,450 in sales.
+Identifying the most and least popular products provides valuable insight into consumer preferences and key revenue drivers, enabling the company to optimize inventory management to meet customer demand effectively. The top-selling products are Copiers, Binders, and Machines—have collectively generated $261,450 in revenue.
 
 Conversely, the bottom ten products are primarily office supplies. Notably, the Sauder Forest Hills Bookcase has no reported sales, indicating a potential absence of sales data. This NULL value warrants careful examination to ensure accurate data interpretation and informed inventory decisions.
 
@@ -75,7 +75,7 @@ Conversely, Accessories items have consistently been the least popular choice fo
 
 For Office Supplies, consumer demand concentrates heavily in Binders. Since 2020, Binder products have been a strong consumer choice thus making sure inventory for these items is readily available for consumers to purchase.
 
-Binders items have also consistently been the least popular choice for consumers. Product demand for these items are poor and must evaluate a course action into options to reduce inventory in these products to avoid unneccesary holding costs.
+Binders items have also consistently been the least popular choice. Product demand for these items are poor and must evaluate a course of action into options to reduce inventory in these products to avoid unnecessary holding costs.
 
 #### Top/Bottom 10 Products by Number of Purchases
 
@@ -90,7 +90,7 @@ Looking into Top/Bottom products by Number of Purchases can help us to understan
 ### ABC Analysis
 
 #### What is ABC Analysis?
-ABC Analyis is a method of inventory classification method that will identify products based on a measure of importance to allocate control efforts accordingly. 
+ABC Analysis is a method of inventory classification method that will identify products based on a measure of importance to allocate control efforts accordingly. 
 
 * A products are high importance
 * B products are medium importance
@@ -100,13 +100,13 @@ Generally, A items account for the largest dollar value but relatively small per
 
 ![image alt](https://github.com/Carlos081023/Carlos_Portfolio2/blob/9f70e8f2f217c0ec2f061c7e4718446f02fec137/Screenshot%202024-11-08%20180849.png)
 
-For this ABC Analysis, 10% of the total number of SKUs are A products, 25% are B products, and 65% of items are C products. After identifying products and assigining classifications here are some insights we can gather to help optimize inventory.
+For this ABC Analysis, 10% of the total number of SKUs are A products, 25% are B products, and 65% of items are C products. After identifying products and assigning classifications, here are some insights:
 
 * There are 193 A items that account for a 1.3 million dollar value
 * There are 460 B items that account for a 690k dollar value
 * There are 1209 C items that account for a 230k dollar value
 
-Using this ABC Analysis, SKUs that categorized as A are of the utmost importance to the success of the business and inventory needs must be met to meet the demand. B items must maintain a inventory management strategy to ensure inventory does not sit too long to avoid holding/costs. C items are the bulk of our inventory holding cost because they will tend to sit longer. 
+Using this ABC Analysis, SKUs categorized as A are of the utmost importance to the success of the business and inventory needs must be met to meet the demand. B items must maintain a inventory management strategy to avoid excessive holding costs. C items are the bulk of our inventory holding cost because they will tend to sit longer. 
 
 While C items are still essential to meet customer needs, strategies like discounts or targeted promotions can help move these items more quickly. Additionally, selective discontinuation of underperforming "C" items can yield cost savings.
 
@@ -128,9 +128,7 @@ Eliminating these items improves profitability and streamlines inventory managem
 ### Demand Forecast
 ![image alt](https://github.com/Carlos081023/Carlos_Portfolio2/blob/e75e3746d9d19045445cef7f1db015fcd9389aea/Screenshot%202024-11-09%20211628.png)
 
-Demand over time trendline has very evident seasonality to it. Demand peaks in Fall months, more specifically September and Novemeber, consistently over the four year period of 2020-2023. Understanding this will be essential to creating an accurate and reliable demand forecast.
-
-
+Demand over time trendline has very evident seasonality to it. Demand peaks in Fall months, more specifically September and November, consistently over the four year period of 2020-2023. Understanding this will be essential to creating an accurate and reliable demand forecast.
 
 #### Yearly Demand Regression Line
 ![image alt](https://github.com/Carlos081023/Carlos_Portfolio2/blob/530605a4fb8a1e85a4a5e02a6807fa93f280b2d8/Screenshot%202024-11-08%20200301.png)
@@ -164,6 +162,6 @@ This combined method of trend-based prediction and seasonality adjustment helps 
 ## Actionable Recommendations:
 
 * Discontinuing some C products: By discontinuing C items with poor sales and produce negative profits, we can effectively reduce costs by .9% and improve profits by 1.2%.
-* Monitor and balance inventory stock for A and B items: By maintaining a close watch on top drivers for sales as well as items that have a moderate demand, it will ensure inventory for A items is readily avaiable and well stocked for customers and B items inventory maintained to avoid overstocking to keep associated costs to a minimium.
+* Monitor and balance inventory stock for A and B items: By maintaining a close watch on top drivers for sales as well as items that have a moderate demand, it will ensure inventory for A items is readily available and well stocked for customers and B items inventory maintained to avoid overstocking to keep associated costs to a minimum.
   
   
